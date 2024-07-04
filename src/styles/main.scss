@@ -1,0 +1,31 @@
+@use 'hero';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50vh 0 39vh;
+}
+
+.title {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    
+    @media (max-width: 1024px) {
+        font-size: 30px;
+    }
+
+    @media (max-width: 640px) {
+        font-size: 16px;
+    }
+}
